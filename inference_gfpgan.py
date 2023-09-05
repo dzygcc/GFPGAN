@@ -72,7 +72,7 @@ def main():
                 model_path='https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth',
                 model=model,
                 tile=args.bg_tile,
-                tile_pad=10,
+                tile_pad=1,
                 pre_pad=0,
                 half=True)  # need to set False in CPU mode
     else:
